@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="12934d3f-c515-443d-9e10-a6f31b2ad97e" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="AnnotationType" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\kaifagongju\Maven\repository" />
+        <option name="mavenHome" value="$PROJECT_DIR$/../../../../kaifagongju/Maven/apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\kaifagongju\Maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2HLAcIallNBvzdpeWLpnVCbqPrU" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/resources" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.123609394" />
+    <property name="project.structure.side.proportion" value="0.28419936" />
+    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-goods-service\newbee-mall-cloud-goods-web\src\main\resources" />
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-order-service\newbee-mall-cloud-order-web\src\main\resources" />
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-recommend-service\newbee-mall-cloud-recommend-web\src\main\resources" />
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-shop-cart-service\newbee-mall-cloud-shop-cart-web\src\main\resources" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="JavaScriptTraceType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.NewBeeMallCloudOrderServiceApplication">
+    <configuration name="NewBeeMallCloudAdminGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="newbee-mall-cloud-gateway-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foxmo.gateway.cloud.newbee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.gateway.cloud.newbee.NewBeeMallCloudAdminGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewBeeMallCloudGoodsServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="newbee-mall-cloud-goods-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.goods.cloud.newbee.NewBeeMallCloudGoodsServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewBeeMallCloudMallGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="newbee-mall-cloud-gateway-mall" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foxmo.gateway.cloud.newbee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.gateway.cloud.newbee.NewBeeMallCloudMallGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewBeeMallCloudOrderServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="newbee-mall-cloud-order-web" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.order.cloud.newbee.NewBeeMallCloudOrderServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewBeeMallCloudRecommendServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="newbee-mall-cloud-recommend-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foxmo.recommend.cloud.newbee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.recommend.cloud.newbee.NewBeeMallCloudRecommendServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewBeeMallCloudShopCartServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="newbee-mall-cloud-shop-cart-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foxmo.shopcart.cloud.newbee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.shopcart.cloud.newbee.NewBeeMallCloudShopCartServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewBeeMallCloudUserServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="newbee-mall-cloud-user-web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="foxmo.user.cloud.newbee.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.user.cloud.newbee.NewBeeMallCloudUserServiceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.NewBeeMallCloudAdminGatewayApplication" />
+        <item itemvalue="Spring Boot.NewBeeMallCloudMallGatewayApplication" />
+        <item itemvalue="Spring Boot.NewBeeMallCloudUserServiceApplication" />
+        <item itemvalue="Spring Boot.NewBeeMallCloudShopCartServiceApplication" />
+        <item itemvalue="Spring Boot.NewBeeMallCloudRecommendServiceApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="12934d3f-c515-443d-9e10-a6f31b2ad97e" name="Changes" comment="" />
+      <created>1668054070516</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1668054070516</updated>
+      <workItem from="1668054071772" duration="11122000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

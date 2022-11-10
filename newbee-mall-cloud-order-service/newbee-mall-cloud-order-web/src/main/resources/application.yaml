@@ -1,0 +1,18 @@
+server:
+  port: 8020
+
+# 应用名称
+spring:
+  application:
+    name: newbee-mall-cloud-order-web
+  # 连接nacos
+  cloud:
+    nacos:
+      discovery:
+        server-addr: localhost:8848
+  #      username: nacos
+  #      password: nacos
+  datasource:
+    url: jdbc:mysql://localhost:3306/newbee_mall_cloud_order_db?useUnicode=true&serverTimezone=Asia/Shanghai&characterEncoding=utf8&autoReconnect=true&useSSL=false&allowMultiQueries=true
+    username: root
+    password: li970511
