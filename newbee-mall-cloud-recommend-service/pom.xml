@@ -11,6 +11,7 @@
 
     <artifactId>newbee-mall-cloud-recommend-service</artifactId>
     <packaging>pom</packaging>
+
     <modules>
         <module>newbee-mall-cloud-recommend-api</module>
         <module>newbee-mall-cloud-recommend-web</module>

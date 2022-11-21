@@ -9,11 +9,31 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>foxmo-recommend.newbee.cloud</groupId>
     <artifactId>newbee-mall-cloud-recommend-api</artifactId>
+    <packaging>jar</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>newbee-mall-cloud-recommend-api</name>
+    <description>推荐服务openfeign</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>newbee-mall-cloud-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+
+    </dependencies>
 
 </project>
