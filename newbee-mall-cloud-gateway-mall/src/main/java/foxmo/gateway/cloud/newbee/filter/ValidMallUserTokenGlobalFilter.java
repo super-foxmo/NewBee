@@ -5,7 +5,6 @@ import com.fasterxml.jackson.databind.node.ObjectNode;
 import foxmo.common.cloud.newbee.dto.Result;
 import foxmo.common.cloud.newbee.dto.ResultGenerator;
 import foxmo.common.cloud.newbee.pojo.MallUserToken;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.cloud.gateway.filter.GatewayFilterChain;
 import org.springframework.cloud.gateway.filter.GlobalFilter;
 import org.springframework.core.Ordered;
@@ -20,19 +19,35 @@ import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
+import javax.annotation.Resource;
 import java.nio.charset.StandardCharsets;
+import java.util.ArrayList;
+import java.util.List;
 
 @Component
 public class ValidMallUserTokenGlobalFilter implements GlobalFilter, Ordered {
 
-    @Autowired
+    @Resource
     private RedisTemplate redisTemplate;
 
     @Override
     public Mono<Void> filter(ServerWebExchange exchange, GatewayFilterChain chain) {
 
-        // 登录注册接口，直接放行
-        if (exchange.getRequest().getURI().getPath().equals("/users/mall/login") || exchange.getRequest().getURI().getPath().equals("/users/mall/register")) {
+//        // 登录注册接口，直接放行
+//        if (exchange.getRequest().getURI().getPath().equals("/users/mall/login")
+//                || exchange.getRequest().getURI().getPath().equals("/users/mall/register")
+//                || exchange.getRequest().getURI().getPath().equals("/mall/index/recommondInfos")) {
+//            return chain.filter(exchange);
+//        }
+
+        final List<String> ignoreURLs = new ArrayList<>();
+        ignoreURLs.add("/users/mall/login");
+        ignoreURLs.add("/users/mall/register");
+        ignoreURLs.add("/categories/mall/listAll");
+        ignoreURLs.add("/mall/index");
+
+        // 登录、注册、首页、分类接口，直接放行
+        if (ignoreURLs.contains(exchange.getRequest().getURI().getPath())) {
             return chain.filter(exchange);
         }
 

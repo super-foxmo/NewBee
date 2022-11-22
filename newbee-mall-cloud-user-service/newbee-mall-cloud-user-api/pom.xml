@@ -10,10 +10,27 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>newbee-mall-cloud-user-api</artifactId>
+    <packaging>jar</packaging>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>newbee-mall-cloud-user-api</name>
+    <description>用户服务openfeign</description>
 
     <properties>
         <maven.compiler.source>8</maven.compiler.source>
         <maven.compiler.target>8</maven.compiler.target>
     </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-openfeign</artifactId>
+        </dependency>
+        <!-- commen -->
+        <dependency>
+            <groupId>org.example</groupId>
+            <artifactId>newbee-mall-cloud-common</artifactId>
+            <version>0.0.1-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
 
 </project>
