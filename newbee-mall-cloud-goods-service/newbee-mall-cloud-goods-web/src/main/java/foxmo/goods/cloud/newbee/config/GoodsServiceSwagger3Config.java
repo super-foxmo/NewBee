@@ -8,6 +8,9 @@
  */
 package foxmo.goods.cloud.newbee.config;
 
+import foxmo.common.cloud.newbee.pojo.AdminUserToken;
+import foxmo.common.cloud.newbee.pojo.LoginAdminUser;
+import foxmo.common.cloud.newbee.pojo.MallUserToken;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import springfox.documentation.builders.ApiInfoBuilder;
@@ -30,21 +33,17 @@ import java.util.List;
 @EnableOpenApi
 public class GoodsServiceSwagger3Config{
 
-//    @Bean
-//    public Docket api() {
-//        return new Docket(DocumentationType.OAS_30)
-//                .apiInfo(apiInfo())
-//                .ignoredParameterTypes(AdminUserToken.class, LoginAdminUser.class, MallUserToken.class)
-//                .select()
-//                .apis(RequestHandlerSelectors.basePackage("ltd.goods.cloud.newbee.controller"))
-//                .paths(PathSelectors.any())
-//                .build()
-//                .globalRequestParameters(getGlobalRequestParameters());
-//    }
-
     @Bean
-    public Docket createRestApi(){
-        return new Docket(DocumentationType.OAS_30).apiInfo(apiInfo()).enable(true);
+    public Docket api() {
+        return new Docket(DocumentationType.OAS_30)
+                .groupName("newbee-mall-cloud-goods-service")
+                .apiInfo(apiInfo())
+                .ignoredParameterTypes(AdminUserToken.class, LoginAdminUser.class)
+                .select()
+                .apis(RequestHandlerSelectors.basePackage("foxmo.goods.cloud.newbee.controller"))
+                .paths(PathSelectors.any())
+                .build()
+                .globalRequestParameters(getGlobalRequestParameters());
     }
 
     //生成全局通用参数
@@ -64,9 +63,7 @@ public class GoodsServiceSwagger3Config{
         return new ApiInfoBuilder()
                 .title("newbee-mall-cloud-goods-service接口文档")
                 .description("swagger接口文档")
-                .license("Apache 2.0")
-                .contact(new Contact("foxmo","http://www.foxmo.vip","foxmo2000@qq.com"))
-                .version("3.0")
+                .version("2.0")
                 .build();
     }
 }

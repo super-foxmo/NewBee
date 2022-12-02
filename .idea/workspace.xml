@@ -4,19 +4,184 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="12934d3f-c515-443d-9e10-a6f31b2ad97e" name="Changes" comment="" />
+    <list default="true" id="12934d3f-c515-443d-9e10-a6f31b2ad97e" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-api/src/main/java/foxmo/goods/cloud/newbee/dto/NewBeeMallGoodsDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-api/src/main/java/foxmo/goods/cloud/newbee/dto/StockNumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-api/src/main/java/foxmo/goods/cloud/newbee/dto/UpdateStockNumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-api/src/main/java/foxmo/goods/cloud/newbee/openfeign/NewBeeMallCloudGoodsServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/config/GoodsServiceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/config/GoodsServiceWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/config/annotation/TokenToAdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/config/annotation/TokenToMallUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/config/handler/TokenToAdminUserMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/config/handler/TokenToMallUserMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/NewBeeAdminGoodsCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/NewBeeAdminGoodsInfoController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/NewBeeMallGoodsCategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/NewBeeMallGoodsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/param/BatchIdParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/param/GoodsAddParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/param/GoodsCategoryAddParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/param/GoodsCategoryEditParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/param/GoodsEditParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/vo/NewBeeMallGoodsDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/vo/NewBeeMallIndexCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/vo/NewBeeMallSearchGoodsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/vo/SecondLevelCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/vo/ThirdLevelCategoryVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/dao/GoodsCategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/dao/NewBeeMallGoodsMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/entity/GoodsCategory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/entity/NewBeeMallGoods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/entity/StockNumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/entity/UpdateStockNumDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/service/NewBeeMallCategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/service/NewBeeMallGoodsService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/service/impl/NewBeeMallCategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/service/impl/NewBeeMallGoodsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/resources/mapper/GoodsCategoryMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/resources/mapper/NewBeeMallGoodsMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/config/OrderServiceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/config/OrderServiceSwagger3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/config/ShopCartServiceWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/config/annotation/TokenToAdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/config/annotation/TokenToMallUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/config/handler/TokenToAdminUserMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/config/handler/TokenToMallUserMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/NewBeeAdminOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/NewBeeMallOrderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/NewBeeMallUserAddressController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/param/BatchIdParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/param/SaveMallUserAddressParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/param/SaveOrderParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/param/UpdateMallUserAddressParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/vo/NewBeeMallOrderAddressVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/vo/NewBeeMallOrderDetailVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/vo/NewBeeMallOrderItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/vo/NewBeeMallOrderListVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/controller/vo/NewBeeMallUserAddressVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/dao/MallUserAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/dao/NewBeeMallOrderAddressMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/dao/NewBeeMallOrderItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/dao/NewBeeMallOrderMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/entity/MallUserAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/entity/NewBeeMallOrder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/entity/NewBeeMallOrderAddress.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/entity/NewBeeMallOrderItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/service/NewBeeMallOrderService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/service/NewBeeMallUserAddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/service/impl/NewBeeMallOrderServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/service/impl/NewBeeMallUserAddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/resources/mapper/MallUserAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/resources/mapper/NewBeeMallOrderAddressMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/resources/mapper/NewBeeMallOrderItemMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/resources/mapper/NewBeeMallOrderMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/config/RecommendServiceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/config/RecommendServiceSwagger3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/config/RecommendServiceWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/config/annotation/TokenToAdminUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/config/handler/TokenToAdminUserMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/NewBeeAdminCarouselController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/NewBeeAdminIndexConfigController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/NewBeeMallIndexController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/param/BatchIdParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/param/CarouselAddParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/param/CarouselEditParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/param/IndexConfigAddParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/param/IndexConfigEditParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/vo/IndexInfoVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/vo/NewBeeMallIndexCarouselVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/controller/vo/NewBeeMallIndexConfigGoodsVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/dao/CarouselMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/dao/IndexConfigMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/entity/Carousel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/entity/IndexConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/service/NewBeeMallCarouselService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/service/NewBeeMallIndexConfigService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/service/impl/NewBeeMallCarouselServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/service/impl/NewBeeMallIndexConfigServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/resources/mapper/CarouselMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/resources/mapper/IndexConfigMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-api/src/main/java/foxmo/shopcart/cloud/newbee/dto/NewBeeMallShoppingCartItemDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-api/src/main/java/foxmo/shopcart/cloud/newbee/openfeign/NewBeeCloudShopCartServiceFeign.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/config/ShopCartServiceExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/config/ShopCartServiceSwagger3Config.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/config/ShopCartServiceWebMvcConfigurer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/config/annotation/TokenToMallUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/config/handler/TokenToMallUserMethodArgumentResolver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/controller/NewBeeMallShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/controller/param/SaveCartItemParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/controller/param/UpdateCartItemParam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/controller/vo/NewBeeMallShoppingCartItemVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/dao/NewBeeMallShoppingCartItemMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/entity/NewBeeMallShoppingCartItem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/service/NewBeeMallShoppingCartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/service/impl/NewBeeMallShoppingCartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/resources/mapper/NewBeeMallShoppingCartItemMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-gateway-admin/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-gateway-admin/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-gateway-mall/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-gateway-mall/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/NewBeeMallCloudGoodsServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/NewBeeMallCloudGoodsServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/config/GoodsServiceSwagger3Config.java" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/config/GoodsServiceSwagger3Config.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/HelloWorldController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/target/classes/foxmo/goods/cloud/newbee/NewBeeMallCloudGoodsServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/target/classes/foxmo/goods/cloud/newbee/NewBeeMallCloudGoodsServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/target/classes/foxmo/goods/cloud/newbee/config/GoodsServiceSwagger3Config.class" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/target/classes/foxmo/goods/cloud/newbee/config/GoodsServiceSwagger3Config.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/target/classes/foxmo/goods/cloud/newbee/controller/HelloWorldController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/NewBeeMallCloudOrderServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/NewBeeMallCloudOrderServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/target/classes/foxmo/order/cloud/newbee/NewBeeMallCloudOrderServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/target/classes/foxmo/order/cloud/newbee/NewBeeMallCloudOrderServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/NewBeeMallCloudRecommendServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/java/foxmo/recommend/cloud/newbee/NewBeeMallCloudRecommendServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/target/classes/foxmo/recommend/cloud/newbee/NewBeeMallCloudRecommendServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-recommend-service/newbee-mall-cloud-recommend-web/target/classes/foxmo/recommend/cloud/newbee/NewBeeMallCloudRecommendServiceApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-api/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-api/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/NewBeeMallCloudShopCartServiceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/NewBeeMallCloudShopCartServiceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/resources/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/target/classes/application.yaml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/target/classes/foxmo/shopcart/cloud/newbee/NewBeeMallCloudShopCartServiceApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/target/classes/foxmo/shopcart/cloud/newbee/NewBeeMallCloudShopCartServiceApplication.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="AnnotationType" />
+        <option value="Mapper xml" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -28,11 +193,15 @@
     </option>
   </component>
   <component name="ProjectId" id="2HLAcIallNBvzdpeWLpnVCbqPrU" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RequestMappingsPanelOrder0" value="0" />
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -41,7 +210,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/entity" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -49,14 +218,25 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.123609394" />
     <property name="project.structure.side.proportion" value="0.28419936" />
-    <property name="settings.editor.selected.configurable" value="File.Encoding" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+  </component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-goods-service\newbee-mall-cloud-goods-web\src\main\resources" />
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-goods-service\newbee-mall-cloud-goods-web\src\main\java\foxmo\goods\cloud\newbee\entity" />
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-goods-service\newbee-mall-cloud-goods-web\src\main\java\foxmo\goods\cloud\newbee\config\handler" />
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-goods-service\newbee-mall-cloud-goods-web\src\main\java\foxmo\goods\cloud\newbee\config\annotation" />
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-goods-service\newbee-mall-cloud-goods-web\src\main\java\foxmo\goods\cloud\newbee\controller\vo" />
+      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-goods-service\newbee-mall-cloud-goods-web\src\main\java\foxmo\goods\cloud\newbee\controller" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-order-service\newbee-mall-cloud-order-web\src\main\resources" />
-      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-recommend-service\newbee-mall-cloud-recommend-web\src\main\resources" />
-      <recent name="D:\code\javacode_idea\Workspace_idea_3\newbee-mall-cloud-alibaba\newbee-mall-cloud-shop-cart-service\newbee-mall-cloud-shop-cart-web\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="foxmo.recommend.cloud.newbee.controller.annotation" />
+      <recent name="foxmo.common.cloud.newbee.pojo" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -97,6 +277,13 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.gateway.cloud.newbee.NewBeeMallCloudMallGatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="NewBeeMallCloudOrderServiceApplication (1)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="newbee-mall-cloud-order-api" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="foxmo.order.cloud.newbee.NewBeeMallCloudOrderServiceApplication" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -147,13 +334,23 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.NewBeeMallCloudGoodsServiceApplication" />
+      <item itemvalue="Spring Boot.NewBeeMallCloudOrderServiceApplication" />
+      <item itemvalue="Spring Boot.NewBeeMallCloudOrderServiceApplication (1)" />
+      <item itemvalue="Spring Boot.NewBeeMallCloudAdminGatewayApplication" />
+      <item itemvalue="Spring Boot.NewBeeMallCloudMallGatewayApplication" />
+      <item itemvalue="Spring Boot.NewBeeMallCloudRecommendServiceApplication" />
+      <item itemvalue="Spring Boot.NewBeeMallCloudUserServiceApplication" />
+      <item itemvalue="Spring Boot.NewBeeMallCloudShopCartServiceApplication" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Spring Boot.NewBeeMallCloudAdminGatewayApplication" />
-        <item itemvalue="Spring Boot.NewBeeMallCloudMallGatewayApplication" />
-        <item itemvalue="Spring Boot.NewBeeMallCloudUserServiceApplication" />
         <item itemvalue="Spring Boot.NewBeeMallCloudShopCartServiceApplication" />
         <item itemvalue="Spring Boot.NewBeeMallCloudRecommendServiceApplication" />
+        <item itemvalue="Spring Boot.NewBeeMallCloudUserServiceApplication" />
+        <item itemvalue="Spring Boot.NewBeeMallCloudMallGatewayApplication" />
+        <item itemvalue="Spring Boot.NewBeeMallCloudAdminGatewayApplication" />
       </list>
     </recent_temporary>
   </component>
@@ -165,11 +362,137 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1668054070516</updated>
-      <workItem from="1668054071772" duration="11122000" />
+      <workItem from="1668054071772" duration="14551000" />
+      <workItem from="1668149445919" duration="1889000" />
+      <workItem from="1668428483619" duration="9239000" />
+      <workItem from="1668514280149" duration="34721000" />
+      <workItem from="1668676214131" duration="3438000" />
+      <workItem from="1668692419363" duration="15540000" />
+      <workItem from="1668755729784" duration="10387000" />
+      <workItem from="1668860026306" duration="12282000" />
+      <workItem from="1669012427873" duration="34883000" />
+      <workItem from="1669474893362" duration="520000" />
+      <workItem from="1669475436172" duration="10000" />
+      <workItem from="1669475471350" duration="96000" />
+      <workItem from="1669475585461" duration="121000" />
+      <workItem from="1669475927479" duration="605000" />
+      <workItem from="1669626009896" duration="36791000" />
+      <workItem from="1669967918136" duration="18216000" />
     </task>
+    <task id="LOCAL-00001" summary="公共模块">
+      <created>1668606340054</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668606340054</updated>
+    </task>
+    <task id="LOCAL-00002" summary="管理系统网关模块">
+      <created>1668866377684</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668866377684</updated>
+    </task>
+    <task id="LOCAL-00003" summary="商城系统网关模块">
+      <created>1669012565944</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1669012565944</updated>
+    </task>
+    <task id="LOCAL-00004" summary="商城管理员与用户模块">
+      <created>1669101928639</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1669101928639</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="公共模块" />
+    <MESSAGE value="管理系统网关模块" />
+    <MESSAGE value="商城系统网关模块" />
+    <MESSAGE value="商城管理员与用户模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="商城管理员与用户模块" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/NewBeeAdminGoodsInfoController.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/controller/NewBeeMallGoodsCategoryController.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/service/impl/NewBeeMallCategoryServiceImpl.java</url>
+          <line>97</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/service/impl/NewBeeMallCategoryServiceImpl.java</url>
+          <line>101</line>
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-goods-service/newbee-mall-cloud-goods-web/src/main/java/foxmo/goods/cloud/newbee/service/impl/NewBeeMallCategoryServiceImpl.java</url>
+          <line>105</line>
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/controller/NewBeeMallShoppingCartController.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="14" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/controller/NewBeeMallShoppingCartController.java</url>
+          <line>67</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/config/handler/TokenToMallUserMethodArgumentResolver.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/service/impl/NewBeeMallOrderServiceImpl.java</url>
+          <line>279</line>
+          <option name="timeStamp" value="29" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/newbee-mall-cloud-order-service/newbee-mall-cloud-order-web/src/main/java/foxmo/order/cloud/newbee/service/impl/NewBeeMallOrderServiceImpl.java</url>
+          <line>141</line>
+          <option name="timeStamp" value="33" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="foxmo.common.cloud.newbee.dto.Result" memberName="data" />
+      </pinned-members>
+    </pin-to-top-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="goodsIds" language="JAVA" />
+        <watch expression="itemsForSave" />
+        <watch expression="newBeeMallOrders.get(0)" />
+      </configuration>
+      <inline-watch fileUrl="file://$PROJECT_DIR$/newbee-mall-cloud-shop-cart-service/newbee-mall-cloud-shop-cart-web/src/main/java/foxmo/shopcart/cloud/newbee/config/handler/TokenToMallUserMethodArgumentResolver.java" line="43">
+        <watch expression="mavContainer" language="JAVA" />
+      </inline-watch>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
